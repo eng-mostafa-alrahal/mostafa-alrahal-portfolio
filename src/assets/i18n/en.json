@@ -1,0 +1,88 @@
+{
+  "Header.Item1": "About me",
+  "Header.Item2": "Experience",
+  "Header.Item3": "Projects",
+  "Header.Item4": "Contact",
+  "Header.cvBtn": "Resume",
+  "Header.cvName": "MOSTAFA_CV.pdf",
+  "Banner.Pretitle": "Hello! My name is",
+  "Banner.Description": "I am a Generative AI Engineer specializing in building and development end-to-end, production-ready <span class='underline'>LLM applications</span>. My expertise covers the full development lifecycle, from designing scalable data ingestion pipelines to orchestrating sophisticated agentic workflows. I leverage <span class='underline'>Python, LangChain, LangGraph, and FastAPI</span> to build robust <span class='underline'>RAG systems</span> that deliver high-fidelity, context-aware results. My focus is on engineering modular and efficient solutions that are both technically robust and aligned with business goals.",
+  "Banner.ActionBtn": "Get in touch",
+  "AboutMe.Title": "About me",
+  "AboutMe.Paragraphs": [
+    "I build practical and powerful intelligent systems, with expertise across the full AI lifecycle from data ingestion to agent deployment. My focus is on engineering modular, reusable solutions using <span class='underline'>Python, FastAPI, LangChain, LangGraph and Google ADK</span> to accelerate development and empower teams. With a strong command of data technologies like <span class='underline'>Neo4j</span> and <span class='underline'>MongoDB</span> and a background in <span class='underline'>Angular</span>, I effectively bridge the gap between complex AI services and the end-user experience."
+  ],
+  "Experience.Title": "Experience",
+  "Experience.Jobs": [
+    {
+      "Tab": "MALY",
+      "Title": "GenAI Engineer",
+      "Date": "August 2024 - October 2025",
+      "Description": [
+        "Engineered and deployed RAG systems to power conversational AI assistants.",
+        "Architected and implemented a scalable data ingestion pipeline to automatically parse, chunk, and vectorize diverse document formats.",
+        "Developed a modular, reusable service using Python and FastAPI for AI assistant creation, significantly accelerating the prototyping and deployment lifecycle",
+        "Implemented high-performance RESTful APIs and Server-sent event APIs using Python and FastAPI to serve LLM agents and expose AI functionalities to client-side applications.",
+        "Implemented advanced RAG techniques to query a proprietary knowledge base of complex documents, ensuring high-fidelity and context-aware responses."
+      ]
+    },
+    {
+      "Tab": "Freelancer",
+      "Title": "Angular Devloper",
+      "Date": " October 2023 - August 2024",
+      "Description": [
+        "Developed responsive web applications for various clients using Angular and TypeScript.",
+        "Built libraries of reusable UI components to accelerate and standardize development.",
+        "Integrated custom and third-party RESTful APIs to handle dynamic data and functionality."
+      ]
+    }
+  ],
+  "FeatureProjects.Title": "Projects that I was a part of",
+  "FeatureProjects.Label": "MALY",
+  "FeatureProjects.Projects": [
+    {
+      "Title": "Deloitte's AI Tax Assistant",
+      "Description": "<span class='underline'>Deloitte's AI Tax Assistant</span> is a specialized RAG assistant to provide accurate MENA tax information and summarize complex legal documents, leveraging Deloitte's proprietary knowledge base for high-fidelity retrieval. ",
+      "imgs": [
+        "assets/images/deloitte/image1.webp",
+        "assets/images/deloitte/image2.webp"
+      ],
+      "demoLink": "https://play.google.com/store/apps/details?id=com.deloitte.metaxpulse",
+      "Technologies": ["Python","FastAPI","LLM","MongoDB"]
+    },
+    {
+      "Title": "MALY's Luna",
+      "Description": "<span class='underline'>Luna</span> is a conversational AI assistant using RAG to deliver personalized, context-aware answers to financial and Maly-related questions.",
+      "imgs": ["assets/images/luna/image1.webp", "assets/images/luna/image2.webp", "assets/images/luna/image3.webp"],
+      "demoLink": "https://play.google.com/store/apps/details?id=com.save.app.save",
+      "Technologies": ["Python","FastAPI","LLM","MongoDB"]
+    },
+    {
+      "Title": " AI4ALL",
+      "Description": "<span class='underline'>AI4ALL</span> is a modular service to accelerate the prototyping and deployment of AI assistants,  significantly reducing the time-to-delivery for new AI solutions across the company from days or weeks to hours. ",
+      "imgs": ["assets/images/mazhr/image1.png"],
+      "Technologies": ["Python","FastAPI", "Google ADK","LLM","MongoDB"]
+    },
+    {
+      "Title": "MALY's data ingestion pipeline",
+      "Description": "<span class='underline'>Ingestion pipeline</span> is a project to automate file-to-vector embedding conversion for AI assistant knowledge bases, forming the core of Maly’s RAG architecture for consistent and efficient information retrieval across all applications.",
+      "imgs": ["assets/images/mazhr/needle.png"],
+      "Technologies": ["Python","FastAPI"]
+    }
+  ],
+  "OtherProjects.Title": "More personal projects",
+  "OtherProjects.Projects": [
+    {
+      "Title": "Fruitful Tree Count Management",
+      "Description": "Full-stack farm management system uses Computer Vision, specifically low-cost spectral signature recognition on satellite images, for automated fruit tree counting, change detection using Google Earth Engine and comprehensive farm management services.",
+
+      "demoLink": "https://www.linkedin.com/posts/nabil-ghosn_ai-agritech-innovation-activity-7268596532893941760-49ia?utm_source=share&utm_medium=member_desktop&rcm=ACoAADlGAoABxYXjgrq2tdz9_iIhgwV_ueH3hNs",
+      "Technologies": ["Django", "GEE", "Python", "OpenCV"]
+    }
+    
+  ],
+  "Contact.Pretitle": "What’s Next",
+  "Contact.Title": "Get in touch!",
+  "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message.",
+  "Contact.Btn": "Say Hello"
+}
