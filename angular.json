@@ -3,7 +3,7 @@
     "version": 1,
     "newProjectRoot": "projects",
     "projects": {
-        "muffeez-portfolio": {
+        "mostafa-alrahal-portfolio": {
             "projectType": "application",
             "schematics": {},
             "root": "",
@@ -19,7 +19,7 @@
                 "build": {
                     "builder": "@angular-devkit/build-angular:browser",
                     "options": {
-                        "outputPath": "dist/muffeez-portfolio",
+                        "outputPath": "dist/mostafa-alrahal-portfolio",
                         "index": "src/index.html",
                         "main": "src/main.ts",
                         "polyfills": "src/polyfills.ts",
@@ -85,18 +85,18 @@
                 "serve": {
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "options": {
-                        "browserTarget": "muffeez-portfolio:build"
+                        "browserTarget": "mostafa-alrahal-portfolio:build"
                     },
                     "configurations": {
                         "production": {
-                            "browserTarget": "muffeez-portfolio:build:production"
+                            "browserTarget": "mostafa-alrahal-portfolio:build:production"
                         }
                     }
                 },
                 "extract-i18n": {
                     "builder": "@angular-devkit/build-angular:extract-i18n",
                     "options": {
-                        "browserTarget": "muffeez-portfolio:build"
+                        "browserTarget": "mostafa-alrahal-portfolio:build"
                     }
                 },
                 "test": {
@@ -134,11 +134,11 @@
                     "builder": "@angular-devkit/build-angular:protractor",
                     "options": {
                         "protractorConfig": "e2e/protractor.conf.js",
-                        "devServerTarget": "muffeez-portfolio:serve"
+                        "devServerTarget": "mostafa-alrahal-portfolio:serve"
                     },
                     "configurations": {
                         "production": {
-                            "devServerTarget": "muffeez-portfolio:serve:production"
+                            "devServerTarget": "mostafa-alrahal-portfolio:serve:production"
                         }
                     }
                 },
@@ -148,7 +148,7 @@
             }
         }
     },
-    "defaultProject": "muffeez-portfolio",
+    "defaultProject": "mostafa-alrahal-portfolio",
     "schematics": {
         "@schematics/angular:component": {
             "styleext": "scss"
