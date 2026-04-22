@@ -13,7 +13,7 @@
             </li>
         </ul>
         <div class="footer-right-bar d-none d-md-block">
-            <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "footer", "email")' href="mailto:mostafa.kha.alrahal@gmail.com" target='_blank'>mostafa.kha.alrahal@gmail.com </a>
+            <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "footer", "email")' href="mailto:{{ 'Contact.Email' | translate }}" target='_blank'>{{ 'Contact.Email' | translate }}</a>
         </div>
     </div>
 
