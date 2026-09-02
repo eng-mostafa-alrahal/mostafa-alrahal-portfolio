@@ -10,7 +10,7 @@ Click the link below to open my portfolio.
 
 - **About me** — Background, stack, and skills (`AboutMe.Skills` in `en.json`)
 - **Experience** — GenAI at MALY, freelance software development
-- **Projects** — Deloitte AI Tax Assistant, Luna, AI4ALL, data ingestion pipeline, plus personal projects (Multi-Agent Travel Planner, Document Processing Service, and more)
+- **Projects** — Deloitte AI Tax Assistant, Luna, AI4ALL, data ingestion pipeline, plus personal projects (Multi-Agent Travel Planner, Document Processing Service, Academic AI Projects, and more)
 - **Contact** — [mostafa.kha.alrahal@gmail.com](mailto:mostafa.kha.alrahal@gmail.com)
 
 Content strings live in `src/assets/i18n/` (for example `en.json`). The contact address is defined there as `Contact.Email`. Skills under About are driven by `AboutMe.Skills`.
