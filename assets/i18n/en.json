@@ -24,7 +24,7 @@
       "Title": "Gen AI Engineer",
       "Date": "August 2024 - November 2025",
       "Description": [
-        "Contributed to the development and deployment of Deloitte’s AI Tax Assistant, implementing RAG, LangGraph, and prompt engineering to ingest, index, and retrieve information from thousands of proprietary legal documents for MENA tax guidance.",
+        "Contributed to the development and deployment of Deloitte’s AI Tax Assistant, implementing RAG, LangChain, LangGraph, and prompt engineering to ingest, index, and retrieve information from thousands of proprietary legal documents for MENA tax guidance.",
         "Built AI4ALL, a multi-tenant AI platform for rapidly deploying and demonstrating customer-specific AI agents and prototypes, using Python, Google ADK, agent orchestration, tool calling, and prompt engineering; reduced the time required to deliver new AI prototypes from days or weeks to hours.",
         "Developed Luna, a conversational AI financial assistant, leveraging RAG, prompt engineering (Few-Shot, ReAct), and context-injection to deliver safe, personalized answers to financial inquiries, reducing routine customer support tickets by 60%."
       ]
@@ -44,13 +44,13 @@
   "FeatureProjects.Projects": [
     {
       "Title": "Deloitte's AI Tax Assistant",
-      "Description": "<span class='underline'>Deloitte's AI Tax Assistant</span> is a specialized RAG system for MENA tax guidance—ingesting, indexing, and retrieving information from thousands of proprietary legal documents with LangGraph and prompt engineering for high-fidelity answers and document summaries.",
+      "Description": "<span class='underline'>Deloitte's AI Tax Assistant</span> is a specialized RAG system for MENA tax guidance—ingesting, indexing, and retrieving information from thousands of proprietary legal documents with LangChain, LangGraph, and prompt engineering for high-fidelity answers and document summaries.",
       "imgs": [
         "assets/images/deloitte/image1.webp",
         "assets/images/deloitte/image2.webp"
       ],
       "demoLink": "https://play.google.com/store/apps/details?id=com.deloitte.metaxpulse",
-      "Technologies": ["Python", "LangGraph", "RAG", "LLM", "FastAPI", "MongoDB Atlas", "Rides"]
+      "Technologies": ["Python", "LangChain", "LangGraph", "RAG", "LLM", "FastAPI", "MongoDB Atlas", "Rides"]
     },
     {
       "Title": "MALY's Luna",
@@ -76,10 +76,10 @@
   "OtherProjects.Projects": [
     {
       "Title": "Multi-Agent Travel Planner",
-      "Description": "LangGraph multi-agent travel planner that orchestrates specialized agents and dynamically provisions destination-specific RAG knowledge bases when information is unavailable from the indexed knowledge base.",
+      "Description": "LangChain and LangGraph multi-agent travel planner that orchestrates specialized agents and dynamically provisions destination-specific RAG knowledge bases when information is unavailable from the indexed knowledge base.",
       "demoLink": "",
       "ghLink": "https://github.com/eng-mostafa-alrahal/autonomous-travel-guide",
-      "Technologies": ["Python", "LangGraph", "FastAPI", "RAG", "pgvector", "Rides"]
+      "Technologies": ["Python", "LangChain", "LangGraph", "FastAPI", "RAG", "pgvector", "Rides"]
     },
     {
       "Title": "Document Processing Service",
@@ -97,10 +97,17 @@
     },
     {
       "Title": "LangGraph Agent — Clean Architecture",
-      "Description": "Demonstrates how to ship a serious agent backend: orchestration with LangGraph, real auth and persistence, optional background jobs, and MCP for external tools—structured so teams can extend modules without rewriting the core.",
+      "Description": "Demonstrates how to ship a serious agent backend: orchestration with LangChain and LangGraph, real auth and persistence, optional background jobs, and MCP for external tools—structured so teams can extend modules without rewriting the core.",
       "demoLink": "",
       "ghLink": "https://github.com/eng-mostafa-alrahal/langgraph-agent-clean-architecture",
-      "Technologies": ["Python", "FastAPI", "LLM", "LangGraph", "postgres"]
+      "Technologies": ["Python", "FastAPI", "LLM", "LangChain", "LangGraph", "postgres"]
+    },
+    {
+      "Title": "Academic AI Projects",
+      "Description": "Applied NLP, computer-vision, deep-learning, and machine-learning projects (2021–2024), including hand-gesture recognition, text classification, and income prediction using OpenCV, Scikit-learn, and PyTorch.",
+      "demoLink": "",
+      "ghLink": "",
+      "Technologies": ["Python", "OpenCV", "Scikit-learn", "PyTorch", "NLP", "CV"]
     }
   ],
   "Contact.Pretitle": "What’s Next",
