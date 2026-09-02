@@ -15,6 +15,8 @@ Click the link below to open my portfolio.
 
 Content strings live in `src/assets/i18n/` (for example `en.json`). The contact address is defined there as `Contact.Email`.
 
+Featured projects under `FeatureProjects.Projects` each need an `imgs` array (paths under `src/assets/images/`). Desktop and mobile both use the carousel (swipe / drag between shots); tall screenshots can also scroll inside the image area.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

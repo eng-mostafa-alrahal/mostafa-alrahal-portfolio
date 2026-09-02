@@ -13,11 +13,11 @@ export class ProyectsComponent implements OnInit {
     loop: true,
     mouseDrag: true,
     touchDrag: true,
-    pullDrag: false,
+    pullDrag: true,
     navSpeed: 700,
     items: 1,
     autoplay: false,
-    // autoplayTimeout:15000
+    dots: true,
   }
 
   @ViewChild('imgContainer') imgContainer: ElementRef;

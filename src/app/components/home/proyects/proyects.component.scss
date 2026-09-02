@@ -116,50 +116,64 @@
 }
 
 @media (max-width: 768px) {
-    .owl-carousel-o{
-        display: none;
+    .owl-carousel-o {
+        display: block !important;
+        width: 100% !important;
+        order: -1;
+        margin-bottom: 16px;
     }
+
+    .img-container {
+        width: 100% !important;
+        max-height: 280px;
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .img-feature-proyect {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
     .proyects {
         .proyect-container {
             height: 100% !important;
             margin: 33px 0 !important;
-            .proyect-info-left {
-                width: 100%;
-            }
+            flex-direction: column;
+
+            .proyect-info-left,
             .proyect-info-right {
                 width: 100%;
+                display: block !important;
+                margin: 0 !important;
+                padding: 0;
+                background-image: none !important;
+                border-radius: 3px;
+
+                .proyect-box {
+                    display: block;
+                    padding: 0;
+                    background: transparent;
+                }
             }
+
             .proyect-description-box {
-                padding: 0px !important;
-                box-shadow: none !important;
+                box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
                 position: relative;
                 z-index: 2;
-                padding: 25px;
-                background-color: transparent !important;
+                padding: 20px;
+                background-color: $LightNavy !important;
                 color: $LightSlate;
                 font-size: 18px;
                 border-radius: 3px;
             }
-            .proyect-info-right,
-            .proyect-info-left {
-                display: block !important;
-                margin: 0px !important;
-                background-size: cover;
-                background-position: center;
-                background-repeat: no-repeat;
-                border-radius: 3px;
-                .proyect-box {
-                    display: block;
-                }
-            }
+
             .img-feature-proyect-container {
                 display: none;
             }
         }
-        .proyect-info-right,
-        .proyect-info-left {
-            padding: 0px;
-        }
+
         .text-right,
         .text-left {
             text-align: center !important;
@@ -169,13 +183,6 @@
         }
         .justify-content-start {
             justify-content: center !important;
-        }
-
-
-        .proyect-info-right .proyect-box,
-        .proyect-info-left .proyect-box {
-            padding: 20px;
-            background: #0a192fe3;
         }
     }
 }
